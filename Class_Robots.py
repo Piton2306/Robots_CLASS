@@ -1,4 +1,5 @@
 class Robot:
+    """Обзор класса Робота"""
     population = 0
 
     def __init__(self, name):
@@ -41,3 +42,5 @@ droid1.dell()
 print()
 droid2.dell()
 Robot.HowMany()
+print()
+print(Robot.__doc__)
